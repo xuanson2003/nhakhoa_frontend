@@ -24,10 +24,10 @@ function Feautes() {
                             <div className="signle-icon">
                                 <i className="icofont icofont-ambulance-cross"></i>
                             </div>
-                            <h3>Giúp Đỡ Khẩn Cấp</h3>
+                            <h3>Dịch Vụ Nha Khoa Toàn Diện</h3>
                             <p>
-                                Dịch vụ cấp cứu 24/7 với đội ngũ bác sĩ và thiết bị y tế hiện đại, sẵn sàng xử lý mọi
-                                tình huống khẩn cấp.
+                                Dịch vụ nha khoa chất lượng cao với đội ngũ nha sĩ giàu kinh nghiệm và trang thiết bị
+                                hiện đại, sẵn sàng đáp ứng mọi nhu cầu chăm sóc răng miệng của bạn.
                             </p>
                         </div>
                         {/* End Single features */}
@@ -38,10 +38,10 @@ function Feautes() {
                             <div className="signle-icon">
                                 <i className="icofont icofont-medical-sign-alt"></i>
                             </div>
-                            <h3>Nhà Thuốc Phong Phú</h3>
+                            <h3>Nhà Thuốc Nha Khoa Đa Dạng</h3>
                             <p>
-                                Nhà thuốc của chúng tôi cung cấp một loạt các sản phẩm dược phẩm chất lượng cao để đáp
-                                ứng mọi nhu cầu của bạn.
+                                Nhà thuốc của chúng tôi cung cấp đa dạng các sản phẩm chăm sóc răng miệng chất lượng
+                                cao, đáp ứng mọi nhu cầu nha khoa của bạn.
                             </p>
                         </div>
                         {/* End Single features */}
@@ -52,10 +52,10 @@ function Feautes() {
                             <div className="signle-icon">
                                 <i className="icofont icofont-stethoscope"></i>
                             </div>
-                            <h3>Điều Trị Y Tế</h3>
+                            <h3>Chăm Sóc Sức Khỏe Răng Miệng Toàn Diện</h3>
                             <p>
-                                Dịch vụ điều trị y tế toàn diện với các chuyên gia hàng đầu và công nghệ tiên tiến nhất
-                                để đảm bảo sức khỏe tốt nhất cho bạn.
+                                Dịch vụ chăm sóc và điều trị nha khoa toàn diện với các chuyên gia nha khoa hàng đầu và
+                                công nghệ tiên tiến để đảm bảo sức khỏe răng miệng tốt nhất cho bạn.
                             </p>
                         </div>
                         {/* End Single features */}

@@ -10,7 +10,7 @@ function FunFact() {
                         <div className="single-fun">
                             <i className="icofont icofont-home"></i>
                             <div className="content">
-                                <span className="counter">3468</span>
+                                <span className="counter">156</span>
                                 <p>Phòng Bệnh Viện</p>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function FunFact() {
                         <div className="single-fun">
                             <i className="icofont icofont-user-alt-3"></i>
                             <div className="content">
-                                <span className="counter">557</span>
+                                <span className="counter">68</span>
                                 <p>Bác Sĩ Chuyên Khoa</p>
                             </div>
                         </div>

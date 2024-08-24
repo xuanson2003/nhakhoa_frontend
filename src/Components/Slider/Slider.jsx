@@ -14,12 +14,12 @@ function Slider() {
                             <div className="col-lg-7">
                                 <div className="text">
                                     <h1>
-                                        Chúng Tôi Cung Cấp Dịch Vụ <span>Y Tế</span> Mà Bạn Có Thể{' '}
+                                        Chúng Tôi Cung Cấp Dịch Vụ <span>Nha Khoa</span> Mà Bạn Có Thể{' '}
                                         <span>Tin Tưởng!</span>
                                     </h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl
-                                        pellentesque, faucibus libero eu, gravida quam.
+                                        Chúng tôi mang đến dịch vụ Nha Khoa chất lượng cao mà bạn có thể tin tưởng cho
+                                        sức khỏe răng miệng của bạn.
                                     </p>
                                     <div className="button">
                                         <a href="#" className="btn">
@@ -43,12 +43,11 @@ function Slider() {
                             <div className="col-lg-7">
                                 <div className="text">
                                     <h1>
-                                        Chúng Tôi Cung Cấp Dịch Vụ <span>Y Tế</span> Mà Bạn Có Thể{' '}
-                                        <span>Tin Tưởng!</span>
+                                        Phòng Khám Nha Khoa <span>Uy Tín</span> Với Dịch Vụ <span>Chuyên Nghiệp</span>
                                     </h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl
-                                        pellentesque, faucibus libero eu, gravida quam.
+                                        Đội ngũ nha sĩ dày dạn kinh nghiệm và thiết bị tiên tiến, sẵn sàng đáp ứng mọi
+                                        nhu cầu chăm sóc răng miệng.
                                     </p>
                                     <div className="button">
                                         <a href="#" className="btn">
@@ -72,12 +71,11 @@ function Slider() {
                             <div className="col-lg-7">
                                 <div className="text">
                                     <h1>
-                                        Chúng Tôi Cung Cấp Dịch Vụ <span>Y Tế</span> Mà Bạn Có Thể{' '}
-                                        <span>Tin Tưởng!</span>
+                                        Nâng Cao <span>Sức Khỏe Răng Miệng</span> Tại Phòng Khám Chúng Tôi
                                     </h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl
-                                        pellentesque, faucibus libero eu, gravida quam.
+                                        Dịch vụ nha khoa toàn diện với các giải pháp điều trị hiệu quả và phương pháp
+                                        tiên tiến nhất cho sức khỏe răng miệng của bạn.
                                     </p>
                                     <div className="button">
                                         <a href="#" className="btn">
