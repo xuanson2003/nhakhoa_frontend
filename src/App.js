@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import Header from './Layouts/Header/Header';
+import Header from './Layouts/Publish/Header/Header';
 import { publicRoutes } from './Routes/routes';
-import Footer from './Layouts/Footer/Footer';
+import Footer from './Layouts/Publish/Footer/Footer';
 
 function App() {
     return (

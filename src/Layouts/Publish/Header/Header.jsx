@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '~/Assets/img/logo.png';
+import config from '~/Config';
 
 function Header() {
+    let [activeMenu, setActiveMenu] = useState(config.routes.home_1);
+
     return (
         <header className="header">
             {/* Header Inner */}
@@ -12,9 +16,14 @@ function Header() {
                             <div className="col-lg-3 col-md-3 col-12">
                                 {/* Start Logo */}
                                 <div className="logo">
-                                    <a href="index.html">
+                                    <Link
+                                        to={config.routes.home_1}
+                                        onClick={() => {
+                                            setActiveMenu(config.routes.home_1);
+                                        }}
+                                    >
                                         <img src={logo} alt="#" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 {/* Mobile Nav */}
                                 <div className="mobile-nav"></div>
@@ -24,49 +33,63 @@ function Header() {
                                 <div className="main-menu">
                                     <nav className="navigation">
                                         <ul className="nav menu">
-                                            <li className="active">
-                                                <a href="#">Trang chủ</a>
+                                            <li className={activeMenu === config.routes.home_1 ? 'active' : ''}>
+                                                <Link
+                                                    to={config.routes.home_1}
+                                                    onClick={() => {
+                                                        setActiveMenu(config.routes.home_1);
+                                                    }}
+                                                >
+                                                    Trang chủ
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Bác sĩ</a>
+                                                <Link to="#">Bác sĩ</Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Dịch vụ <i className="icofont-rounded-down"></i>
-                                                </a>
+                                                </Link>
                                                 <ul className="dropdown">
                                                     <li>
-                                                        <a href="404.html">Chỉnh nha mắc cài truyền thống</a>
+                                                        <Link to="404.html">Chỉnh nha mắc cài truyền thống</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="404.html">Nha khoa thẩm mĩ</a>
+                                                        <Link to="404.html">Nha khoa thẩm mĩ</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="404.html">Nhổ răng không</a>
+                                                        <Link to="404.html">Nhổ răng không</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="404.html">Nha khỏa trẻ em</a>
+                                                        <Link to="404.html">Nha khỏa trẻ em</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="404.html">Răng giả tháo lắp</a>
+                                                        <Link to="404.html">Răng giả tháo lắp</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Bảng giá</a>
+                                                <Link to="#">Bảng giá</Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Tin tức <i className="icofont-rounded-down"></i>
-                                                </a>
+                                                </Link>
                                                 <ul className="dropdown">
                                                     <li>
-                                                        <a href="blog-single.html">Tin tức 1</a>
+                                                        <Link to="blog-single.html">Tin tức 1</Link>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <a href="contact.html">Liên hệ</a>
+                                            <li className={activeMenu === config.routes.contact ? 'active' : ''}>
+                                                <Link
+                                                    to={config.routes.contact}
+                                                    onClick={() => {
+                                                        setActiveMenu(config.routes.contact);
+                                                    }}
+                                                >
+                                                    Liên hệ
+                                                </Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -74,9 +97,9 @@ function Header() {
                             </div>
                             <div className="col-lg-2 col-12">
                                 <div className="get-quote">
-                                    <a href="appointment.html" className="btn">
+                                    <Link to="appointment.html" className="btn">
                                         Đặt lịch khám
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

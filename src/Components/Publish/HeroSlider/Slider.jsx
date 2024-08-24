@@ -1,11 +1,11 @@
-import React from 'react';
+import React     from 'react';
 import slider from '~/Assets/img/slider.jpg';
 import slider2 from '~/Assets/img/slider2.jpg';
 import slider3 from '~/Assets/img/slider3.jpg';
 
 function Slider() {
     return (
-        <section className="slider ">
+        <section className="slider">
             <div className="hero-slider">
                 {/* Bắt đầu Slider */}
                 <div className="single-slider" style={{ backgroundImage: `url(${slider2})` }}>

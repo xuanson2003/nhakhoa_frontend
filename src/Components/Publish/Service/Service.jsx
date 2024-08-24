@@ -32,7 +32,7 @@ function Service() {
                     <div className="col-lg-4 col-md-6 col-12">
                         {/* Start Single Service */}
                         <div className="single-service">
-                            <i class="icofont-screw-driver"></i>
+                            <i className="icofont-screw-driver"></i>
                             <h4>
                                 <a href="service-details.html">Cấy ghép Implant</a>
                             </h4>
@@ -45,7 +45,7 @@ function Service() {
                     <div className="col-lg-4 col-md-6 col-12">
                         {/* Start Single Service */}
                         <div className="single-service">
-                            <i class="icofont-simple-smile"></i>
+                            <i className="icofont-simple-smile"></i>
                             <h4>
                                 <a href="service-details.html">Nha khoa thẩm mỹ</a>
                             </h4>
@@ -59,7 +59,7 @@ function Service() {
                     <div className="col-lg-4 col-md-6 col-12">
                         {/* Start Single Service */}
                         <div className="single-service">
-                            <i class="icofont-first-aid-alt"></i>
+                            <i className="icofont-first-aid-alt"></i>
                             <h4>
                                 <a href="service-details.html">Chỉnh nha không mắc cài Invisalign</a>
                             </h4>
@@ -84,7 +84,7 @@ function Service() {
                     <div className="col-lg-4 col-md-6 col-12">
                         {/* Start Single Service */}
                         <div className="single-service">
-                            <i class="icofont-users-alt-3"></i>
+                            <i className="icofont-users-alt-3"></i>
                             <h4>
                                 <a href="service-details.html">Nha khoa trẻ em</a>
                             </h4>
