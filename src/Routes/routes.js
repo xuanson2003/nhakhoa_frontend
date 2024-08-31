@@ -1,6 +1,6 @@
 import config from '~/Config';
-import Contact from '~/Pages/Publish/Contact/Contact';
-import Home from '~/Pages/Publish/Home/Home';
+import Home from '~/Pages/Home/Home';
+import Contact from '~/Pages/Contact/Contact';
 
 const publicRoutes = [
     { path: config.routes.home, component: <Home /> },

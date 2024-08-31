@@ -1,9 +1,9 @@
-import React     from 'react';
+import React from 'react';
 import slider from '~/Assets/img/slider.jpg';
 import slider2 from '~/Assets/img/slider2.jpg';
 import slider3 from '~/Assets/img/slider3.jpg';
 
-function Slider() {
+function HeroSlider() {
     return (
         <section className="slider">
             <div className="hero-slider">
@@ -96,4 +96,4 @@ function Slider() {
     );
 }
 
-export default Slider;
+export default HeroSlider;

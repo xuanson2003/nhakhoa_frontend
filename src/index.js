@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// css
 import '~/Assets/css/bootstrap.min.css';
 import '~/Assets/css/nice-select.css';
 import '~/Assets/css/font-awesome.min.css';
@@ -15,6 +15,7 @@ import '~/Assets/css/animate.min.css';
 import '~/Assets/css/normalize.css';
 import '~/Assets/css/style.css';
 import '~/Assets/css/responsive.css';
+// base css
 import '~/Style/_base.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

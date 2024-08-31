@@ -1,5 +1,5 @@
 import React from 'react';
-import BreadScrum from '~/Components/Publish/BreadScrumb/BreadScrum';
+import BreadScrum from '~/Components/BreadScrumb/BreadScrum';
 import bgContact from '~/Assets/img/bg_contact.webp';
 
 function Contact() {
